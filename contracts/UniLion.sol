@@ -485,9 +485,9 @@ contract UniLion is Context, IBEP20, Ownable {
         _isBlacklisted[account] = value;
     }
 
-    function blacklistSniperAddresses(address[] memory sniperAddressses) private {
-        for (uint i=0; i<sniperAddressses.length; i++) {
-            _isBlacklisted[sniperAddressses[i]] = true;
+    function blacklistSniperAddresses(address[] memory sniperAddresses) private {
+        for (uint i=0; i<sniperAddresses.length; i++) {
+            _isBlacklisted[sniperAddresses[i]] = true;
         }
     }
 
