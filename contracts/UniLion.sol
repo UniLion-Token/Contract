@@ -14,7 +14,7 @@ contract UniLion is Context, IBEP20, Ownable {
     using SafeMath for uint256;
     using Address for address;
     
-    address payable marketingAddress = payable(0xfdFBA3C88e0757d0EBebd399EA07aB76D306a54A); 
+    address payable marketingAddress = payable(0xE6BebE30Af80744e1a876ce097B40EE553d1614d); 
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
     address public pancakeRouterAddress;
     address[] public _sniperAddresses;
